@@ -1,7 +1,15 @@
-angular.module('starter.controllers', [])
+angular.module('volunteer.controllers', [])
 
-.controller('DashCtrl', function($scope) {})
+.controller('UpcomingCtrl', function($scope) {})
 
+.controller('CalendarCtrl', function($scope) {})
+
+.controller('GroupsCtrl', function($scope) {})
+
+.controller('MessagesCtrl', function($scope) {})
+;
+
+/** Reference:
 .controller('ChatsCtrl', function($scope, Chats) {
   // With the new view caching in Ionic, Controllers are only called
   // when they are recreated or on app start, instead of every page change.
@@ -16,13 +24,8 @@ angular.module('starter.controllers', [])
     Chats.remove(chat);
   };
 })
-
 .controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
   $scope.chat = Chats.get($stateParams.chatId);
 })
 
-.controller('AccountCtrl', function($scope) {
-  $scope.settings = {
-    enableFriends: true
-  };
-});
+**/
